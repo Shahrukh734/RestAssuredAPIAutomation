@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="419440" started-at="2016-06-08T12:31:16Z" finished-at="2016-06-08T12:38:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="419440" started-at="2016-06-08T12:31:16Z" finished-at="2016-06-08T12:38:16Z">
+      <class name="com.wipro.sfdc.test.TC_CreateNewLead">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.wipro.sfdc.test.TC_CreateNewLead@49ea903c]" name="initBrowser" is-config="true" duration-ms="32427" started-at="2016-06-08T18:05:26Z" finished-at="2016-06-08T18:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="Create_New_Lead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wipro.sfdc.test.TC_CreateNewLead@49ea903c]" name="Create_New_Lead" duration-ms="65840" started-at="2016-06-08T18:05:58Z" data-provider="createNewLead" finished-at="2016-06-08T18:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[765969@officedepot.com.oduat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wipro123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Create New Lead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Johnson]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Wipro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_Lead -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wipro.sfdc.test.TC_CreateNewLead@49ea903c]" name="tearDown" is-config="true" duration-ms="210" started-at="2016-06-08T18:07:04Z" finished-at="2016-06-08T18:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_New_Lead status=SUCCESS method=TC_CreateNewLead.Create_New_Lead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wipro.sfdc.test.TC_CreateNewLead@49ea903c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wipro.sfdc.test.TC_CreateNewLead -->
+      <class name="com.wipro.sfdc.test.TC_BSDQuoteRequest">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.wipro.sfdc.test.TC_BSDQuoteRequest@8cb09b6]" name="initBrowser" is-config="true" duration-ms="28023" started-at="2016-06-08T18:01:17Z" finished-at="2016-06-08T18:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="BSD_Quote_Request(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wipro.sfdc.test.TC_BSDQuoteRequest@8cb09b6]" name="BSD_Quote_Request" duration-ms="209565" started-at="2016-06-08T18:01:45Z" data-provider="bsdQuoteRequest" finished-at="2016-06-08T18:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[melissaLopez2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester3@2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BSD Quote Request]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[262123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RAJPUT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[please ship the order asap.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[765969@officedepot.com.oduat]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Wipro123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BSD_Quote_Request -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wipro.sfdc.test.TC_BSDQuoteRequest@8cb09b6]" name="tearDown" is-config="true" duration-ms="10971" started-at="2016-06-08T18:05:15Z" finished-at="2016-06-08T18:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BSD_Quote_Request status=SUCCESS method=TC_BSDQuoteRequest.BSD_Quote_Request(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wipro.sfdc.test.TC_BSDQuoteRequest@8cb09b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.wipro.sfdc.test.TC_BSDQuoteRequest@8cb09b6]" name="flushReport" is-config="true" duration-ms="1151" started-at="2016-06-08T18:08:17Z" finished-at="2016-06-08T18:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.wipro.sfdc.test.TC_BSDQuoteRequest -->
+      <class name="com.wipro.sfdc.test.TC_SalesForce">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.wipro.sfdc.test.TC_SalesForce@46a3790d]" name="initBrowser" is-config="true" duration-ms="10608" started-at="2016-06-08T18:07:04Z" finished-at="2016-06-08T18:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="Test_Sales_Force(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.wipro.sfdc.test.TC_SalesForce@46a3790d]" name="Test_Sales_Force" duration-ms="60111" started-at="2016-06-08T18:07:15Z" data-provider="dataP" finished-at="2016-06-08T18:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Sales Force]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[(999) 999-3333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Accounting]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[wipro]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[AK]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[506100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[CAN]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Small < $40K]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buying Groups Small < $40K]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Staples]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Staples]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[AB]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[765969@officedepot.com.oduat]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Wipro123]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Johnson]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Prospect [Change]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Sales_Force -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wipro.sfdc.test.TC_SalesForce@46a3790d]" name="tearDown" is-config="true" duration-ms="800" started-at="2016-06-08T18:08:15Z" finished-at="2016-06-08T18:08:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Sales_Force status=SUCCESS method=TC_SalesForce.Test_Sales_Force(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.wipro.sfdc.test.TC_SalesForce@46a3790d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wipro.sfdc.test.TC_SalesForce -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

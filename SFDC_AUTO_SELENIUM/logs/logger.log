@@ -1,0 +1,1540 @@
+2016-06-07 20:49:29 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-07 20:49:29 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-07 20:49:29 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-07 20:49:29 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-07 20:49:29 INFO  TC_base - profile created
+2016-06-07 20:49:36 INFO  TC_base - driver initialized
+2016-06-07 20:49:36 INFO  TC_base - window maximized
+2016-06-07 20:49:36 INFO  TC_base - exiting initBrowser() method
+2016-06-07 20:49:36 INFO  TC_base - ------test case: bsdQuoteRequest started-----
+2016-06-07 20:49:36 INFO  sfdc_Gen_Utils - -------inside login--------
+2016-06-07 20:49:49 INFO  sfdc_Util - https://bsdsqm.officedepot.com opened
+2016-06-07 20:49:49 INFO  sfdc_Gen_Utils - url opened
+2016-06-07 20:49:49 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:49:49 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:49:50 INFO  sfdc_Gen_Utils - username entered
+2016-06-07 20:49:50 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:49:50 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:49:50 INFO  sfdc_Gen_Utils - password entered
+2016-06-07 20:49:50 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:49:50 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:49:50 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:49:50 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:50:12 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:50:12 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-07 20:50:12 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-07 20:50:18 INFO  sfdc_Util - Timestamp creation passed
+2016-06-07 20:50:18 INFO  sfdc_Gen_Utils - ------inside fillData------
+2016-06-07 20:50:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:50:20 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:50:20 INFO  sfdc_Gen_Utils - item number passed
+2016-06-07 20:50:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:50:21 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:50:21 INFO  sfdc_Gen_Utils - quantity passed
+2016-06-07 20:50:21 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:50:22 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:50:22 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:50:22 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:50:37 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:50:41 INFO  sfdc_Gen_Utils - add to cart button is clicked
+2016-06-07 20:50:41 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:50:41 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:50:41 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:50:41 INFO  sfdc_Util - SHOPPING CART Element found on page
+2016-06-07 20:50:44 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:50:55 INFO  sfdc_Gen_Utils - shopping cart button is  clicked
+2016-06-07 20:50:55 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:50:55 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:50:55 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:50:55 INFO  sfdc_Util - Request Volume Pricing Element found on page
+2016-06-07 20:50:59 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:51:00 INFO  sfdc_Gen_Utils - request volume pricing is clicked
+2016-06-07 20:51:03 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:51:03 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:51:03 INFO  sfdc_Gen_Utils - quote name is passed
+2016-06-07 20:51:04 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:51:04 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:51:04 INFO  sfdc_Gen_Utils - quote msg is passed
+2016-06-07 20:51:04 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:51:04 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:51:04 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:51:04 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:52:17 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:52:20 INFO  sfdc_Gen_Utils - submit quote button is clicked
+2016-06-07 20:52:20 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:52:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:20 INFO  sfdc_Util - Logout Element found on page
+2016-06-07 20:52:24 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:52:25 INFO  sfdc_Gen_Utils - -------inside navigateToTestSalesForce--------
+2016-06-07 20:52:27 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-07 20:52:27 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:27 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:52:27 INFO  sfdc_Gen_Utils - username entered
+2016-06-07 20:52:27 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:27 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:52:27 INFO  sfdc_Gen_Utils - password entered
+2016-06-07 20:52:28 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:52:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:28 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:52:33 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:52:33 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-07 20:52:33 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:52:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:43 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:43 INFO  sfdc_Util - Opportunities Element found on page
+2016-06-07 20:52:46 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:52:46 INFO  sfdc_Util - New Tech quotes selection success
+2016-06-07 20:52:46 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:52:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:47 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:47 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:52:52 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:52:52 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-07 20:52:53 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-07 20:52:53 INFO  sfdc_Util - Validation success-BSD QUOTE REQUEST
+2016-06-07 20:52:53 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:52:53 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:53 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:53 INFO  sfdc_Util - lobo vadakkethal... Element found on page
+2016-06-07 20:52:53 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:52:53 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:52:53 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:54 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:52:54 INFO  sfdc_Util - Logout Element found on page
+2016-06-07 20:52:54 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:52:54 INFO  TC_base - inside tearDown method
+2016-06-07 20:52:55 INFO  TC_base - extent report endTest() method completed
+2016-06-07 20:52:55 INFO  TC_base - driver closed
+2016-06-07 20:52:55 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-07 20:52:55 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-07 20:52:55 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-07 20:52:55 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-07 20:52:55 INFO  TC_base - profile created
+2016-06-07 20:53:06 INFO  TC_base - driver initialized
+2016-06-07 20:53:07 INFO  TC_base - window maximized
+2016-06-07 20:53:08 INFO  TC_base - exiting initBrowser() method
+2016-06-07 20:53:08 INFO  TC_base - ------test case: createNewLead started-----
+2016-06-07 20:53:08 INFO  sfdc_Gen_Utils - -------inside loginTestSalesForce--------
+2016-06-07 20:53:19 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-07 20:53:19 INFO  sfdc_Gen_Utils - TestSalesForce url opened
+2016-06-07 20:53:19 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:19 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:53:19 INFO  sfdc_Gen_Utils - TestSalesForce username entered
+2016-06-07 20:53:19 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:20 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:53:20 INFO  sfdc_Gen_Utils - TestSalesForce password entered
+2016-06-07 20:53:20 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:20 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:53:25 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:25 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-07 20:53:25 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-07 20:53:26 INFO  sfdc_Gen_Utils - -------inside newLead--------
+2016-06-07 20:53:33 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:33 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:33 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:33 INFO  sfdc_Util - Leads Element found on page
+2016-06-07 20:53:36 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:36 INFO  sfdc_Gen_Utils - clicked on leads tab
+2016-06-07 20:53:36 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:36 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:36 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:36 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:53:37 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:37 INFO  sfdc_Gen_Utils - clicked on new button
+2016-06-07 20:53:38 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:38 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:53:45 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:45 INFO  sfdc_Gen_Utils - clicked on continue button
+2016-06-07 20:53:45 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:45 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:53:45 INFO  sfdc_Gen_Utils - LastName Passed
+2016-06-07 20:53:45 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:46 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:53:46 INFO  sfdc_Gen_Utils - CompanyName Passed
+2016-06-07 20:53:46 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:46 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:53:51 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:51 INFO  sfdc_Gen_Utils - SaveButton clicked
+2016-06-07 20:53:51 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:51 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:52 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:52 INFO  sfdc_Util - Home Element found on page
+2016-06-07 20:53:54 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:54 INFO  sfdc_Gen_Utils - HomeTab clicked
+2016-06-07 20:53:54 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:54 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:54 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:54 INFO  sfdc_Util - Leads Element found on page
+2016-06-07 20:53:57 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:57 INFO  sfdc_Gen_Utils - LeadsTab clicked
+2016-06-07 20:53:57 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-07 20:53:57 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:57 INFO  sfdc_Util - Johnson Element found on page
+2016-06-07 20:53:58 INFO  sfdc_Gen_Utils - validated if added lead  exists or not
+2016-06-07 20:53:58 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-07 20:53:58 INFO  sfdc_Util - Lead is found
+2016-06-07 20:53:58 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:58 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:58 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:58 INFO  sfdc_Util - lobo vadakkethal... Element found on page
+2016-06-07 20:53:58 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:58 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:53:58 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:59 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:53:59 INFO  sfdc_Util - Logout Element found on page
+2016-06-07 20:53:59 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:53:59 INFO  TC_base - inside tearDown method
+2016-06-07 20:53:59 INFO  TC_base - extent report endTest() method completed
+2016-06-07 20:53:59 INFO  TC_base - driver closed
+2016-06-07 20:53:59 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-07 20:54:00 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-07 20:54:00 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-07 20:54:00 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-07 20:54:00 INFO  TC_base - profile created
+2016-06-07 20:54:12 INFO  TC_base - driver initialized
+2016-06-07 20:54:12 INFO  TC_base - window maximized
+2016-06-07 20:54:12 INFO  TC_base - exiting initBrowser() method
+2016-06-07 20:54:12 INFO  TC_base - ------test case: Test_Sales_Force started-----
+2016-06-07 20:54:14 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-07 20:54:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:14 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:14 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:15 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:54:15 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:15 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:15 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:20 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:54:20 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:54:24 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:28 INFO  sfdc_Util - Leads Element found on page
+2016-06-07 20:54:29 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:54:30 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-07 20:54:30 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:30 INFO  sfdc_Util - Johnson Element found on page
+2016-06-07 20:54:30 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:54:30 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:31 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:31 INFO  sfdc_Util - Johnson Element found on page
+2016-06-07 20:54:33 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:54:34 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:54:34 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:34 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:34 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:40 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:54:40 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:41 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:41 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:44 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:44 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:44 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:45 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:45 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:45 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:45 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:54:48 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 20:54:48 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:48 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:54:48 INFO  sfdc_Util -  Element found on page
+2016-06-07 20:55:06 INFO  sfdc_Util -  Button clicked
+2016-06-07 20:55:06 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 20:55:06 INFO  sfdc_Util - Prospect [Change] Element found on page
+2016-06-07 20:55:06 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-07 20:55:06 INFO  sfdc_Util - Record verified
+2016-06-07 20:55:06 INFO  TC_base - inside tearDown method
+2016-06-07 20:55:07 INFO  TC_base - extent report endTest() method completed
+2016-06-07 20:55:07 INFO  TC_base - driver closed
+2016-06-07 20:55:07 INFO  TC_base - inside flushReport() method
+2016-06-07 20:55:07 INFO  TC_base - report flushed
+2016-06-07 21:37:52 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-07 21:37:53 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-07 21:37:53 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-07 21:37:53 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-07 21:37:57 INFO  TC_base - driver initialized
+2016-06-07 21:38:06 INFO  TC_base - window maximized
+2016-06-07 21:38:06 INFO  TC_base - exiting initBrowser() method
+2016-06-07 21:38:06 INFO  TC_base - ------test case: bsdQuoteRequest started-----
+2016-06-07 21:38:06 INFO  sfdc_Gen_Utils - -------inside login--------
+2016-06-07 21:38:09 INFO  sfdc_Util - https://bsdsqm.officedepot.com opened
+2016-06-07 21:38:09 INFO  sfdc_Gen_Utils - url opened
+2016-06-07 21:38:18 INFO  sfdc_Util - Element not found on page - identified by By.xpath: //input[@id='loginNameBsd']invalid selector: Unable to locate an element with the xpath expression //input[@id='loginNameBsd'] because of the following error:
+TypeError: Failed to execute 'createNSResolver' on 'Document': parameter 1 is not of type 'Node'.
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.73 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=//input[@id='loginNameBsd']}
+Session ID: 77a12078c2941ff407acc8748b1c5468
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir4596_26214}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-07 21:38:18 INFO  TC_base - inside tearDown method
+2016-06-07 21:38:18 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()unknown error: cannot take screenshot
+from unknown error: Failed to capture tab: unknown error
+JavaScript stack:
+Error: Failed to capture tab: unknown error
+    at checkForExtensionError (chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/background.js:14:17)
+    at Object.callback (chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/background.js:37:5)
+    at safeCallbackApply (extensions::sendRequest:21:15)
+    at handleResponse (extensions::sendRequest:72:7)
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 77a12078c2941ff407acc8748b1c5468
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir4596_26214}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-07 21:38:18 ERROR TC_base - 
+2016-06-07 21:38:18 INFO  TC_base - extent report endTest() method completed
+2016-06-07 21:38:19 INFO  TC_base - driver closed
+2016-06-07 21:38:19 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-07 21:38:19 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-07 21:38:19 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-07 21:38:19 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-07 21:38:21 INFO  TC_base - driver initialized
+2016-06-07 21:38:22 INFO  TC_base - window maximized
+2016-06-07 21:38:22 INFO  TC_base - exiting initBrowser() method
+2016-06-07 21:38:22 INFO  TC_base - ------test case: createNewLead started-----
+2016-06-07 21:38:22 INFO  sfdc_Gen_Utils - -------inside loginTestSalesForce--------
+2016-06-07 21:38:35 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-07 21:38:35 INFO  sfdc_Gen_Utils - TestSalesForce url opened
+2016-06-07 21:38:37 INFO  sfdc_Util -  Element found on page
+2016-06-07 21:38:37 INFO  sfdc_Gen_Utils - TestSalesForce username entered
+2016-06-07 21:38:38 INFO  sfdc_Util -  Element found on page
+2016-06-07 21:38:38 INFO  sfdc_Gen_Utils - TestSalesForce password entered
+2016-06-07 21:38:38 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 21:38:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 21:38:38 INFO  sfdc_Util -  Element found on page
+2016-06-07 21:38:40 INFO  sfdc_Util -  Button clicked
+2016-06-07 21:38:40 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-07 21:38:40 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-07 21:38:41 INFO  sfdc_Gen_Utils - -------inside newLead--------
+2016-06-07 21:38:41 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 21:38:46 INFO  sfdc_Util - Unable to click Element identified by By.xpath: //li[@id='Lead_Tab']/a[@title='Leads Tab']
+2016-06-07 21:38:46 INFO  sfdc_Gen_Utils - clicked on leads tab
+2016-06-07 21:38:46 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 21:40:26 INFO  sfdc_Util - Unable to click Element identified by By.xpath: //form[@id='hotlist']//input
+2016-06-07 21:40:26 INFO  sfdc_Gen_Utils - clicked on new button
+2016-06-07 21:40:27 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-07 21:41:06 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-07 21:41:08 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()chrome not reachable
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 53986bf6cffdb43745732199d4e025f9
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir8068_15282}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-07 21:41:08 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-07 21:41:08 INFO  sfdc_Util - Unable to click Element identified by By.xpath: //td[@id='bottomButtonRow']//input[@name='save']
+2016-06-07 21:41:08 INFO  sfdc_Gen_Utils - clicked on continue button
+2016-06-07 21:41:10 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()chrome not reachable
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.00 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 53986bf6cffdb43745732199d4e025f9
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir8068_15282}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-07 21:41:10 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-07 21:41:12 INFO  sfdc_Util - Element not found on page - identified by By.xpath: //div[@class='requiredInput']//input[@id='j_id0:j_id3:j_id30:j_id37:j_id40']chrome not reachable
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=//div[@class='requiredInput']//input[@id='j_id0:j_id3:j_id30:j_id37:j_id40']}
+Session ID: 53986bf6cffdb43745732199d4e025f9
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir8068_15282}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-07 21:41:14 INFO  TC_base - inside tearDown method
+2016-06-07 21:41:16 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()chrome not reachable
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 53986bf6cffdb43745732199d4e025f9
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir8068_15282}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-07 21:41:16 ERROR TC_base - 
+2016-06-07 21:41:16 INFO  TC_base - extent report endTest() method completed
+2016-06-07 21:41:18 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-07 21:41:18 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-07 21:41:18 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 11:12:01 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:12:02 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:12:02 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:12:02 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:12:05 INFO  TC_base - driver initialized
+2016-06-08 11:12:16 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:12:16 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:12:16 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:12:16 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 11:12:16 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:12:16 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 11:12:49 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:12:50 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:12:50 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:12:50 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:12:52 INFO  TC_base - driver initialized
+2016-06-08 11:12:54 INFO  TC_base - window maximized
+2016-06-08 11:12:54 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:12:54 INFO  TC_base - ------test case: bsdQuoteRequest started-----
+2016-06-08 11:12:54 INFO  sfdc_Gen_Utils - -------inside login--------
+2016-06-08 11:12:56 INFO  sfdc_Util - https://bsdsqm.officedepot.com opened
+2016-06-08 11:12:56 INFO  sfdc_Gen_Utils - url opened
+2016-06-08 11:13:04 INFO  sfdc_Util - Element not found on page - identified by By.xpath: //input[@id='loginNameBsd']invalid selector: Unable to locate an element with the xpath expression //input[@id='loginNameBsd'] because of the following error:
+TypeError: Failed to execute 'createNSResolver' on 'Document': parameter 1 is not of type 'Node'.
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=//input[@id='loginNameBsd']}
+Session ID: 721ff148f6930db0cd1ac94d46263318
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir8384_1821}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:04 INFO  TC_base - inside tearDown method
+2016-06-08 11:13:04 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()unknown error: cannot take screenshot
+from unknown error: Failed to capture tab: unknown error
+JavaScript stack:
+Error: Failed to capture tab: unknown error
+    at checkForExtensionError (chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/background.js:14:17)
+    at Object.callback (chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/background.js:37:5)
+    at safeCallbackApply (extensions::sendRequest:21:15)
+    at handleResponse (extensions::sendRequest:72:7)
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 88 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 721ff148f6930db0cd1ac94d46263318
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir8384_1821}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:04 ERROR TC_base - 
+2016-06-08 11:13:04 INFO  TC_base - extent report endTest() method completed
+2016-06-08 11:13:06 INFO  TC_base - driver closed
+2016-06-08 11:13:06 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:13:07 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:13:07 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:13:07 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:13:08 INFO  TC_base - driver initialized
+2016-06-08 11:13:09 INFO  TC_base - window maximized
+2016-06-08 11:13:09 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:13:09 INFO  TC_base - ------test case: createNewLead started-----
+2016-06-08 11:13:09 INFO  sfdc_Gen_Utils - -------inside loginTestSalesForce--------
+2016-06-08 11:13:12 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 11:13:12 INFO  sfdc_Gen_Utils - TestSalesForce url opened
+2016-06-08 11:13:12 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:13:12 INFO  sfdc_Gen_Utils - TestSalesForce username entered
+2016-06-08 11:13:12 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:13:12 INFO  sfdc_Gen_Utils - TestSalesForce password entered
+2016-06-08 11:13:12 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:13:12 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:13:13 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:13:13 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:13:13 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 11:13:13 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-08 11:13:13 INFO  sfdc_Gen_Utils - -------inside newLead--------
+2016-06-08 11:13:13 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:13:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 13960e1a451accf797c5df0e357e5681
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir9104_24251}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to click Element identified by By.xpath: //li[@id='Lead_Tab']/a[@title='Leads Tab']
+2016-06-08 11:13:20 INFO  sfdc_Gen_Utils - clicked on leads tab
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 13960e1a451accf797c5df0e357e5681
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir9104_24251}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:13:20 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 13960e1a451accf797c5df0e357e5681
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir9104_24251}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to click Element identified by By.xpath: //form[@id='hotlist']//input
+2016-06-08 11:13:20 INFO  sfdc_Gen_Utils - clicked on new button
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 13960e1a451accf797c5df0e357e5681
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir9104_24251}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:13:20 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 13960e1a451accf797c5df0e357e5681
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir9104_24251}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to click Element identified by By.xpath: //td[@id='bottomButtonRow']//input[@name='save']
+2016-06-08 11:13:20 INFO  sfdc_Gen_Utils - clicked on continue button
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 13960e1a451accf797c5df0e357e5681
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir9104_24251}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:13:20 INFO  sfdc_Util - Element not found on page - identified by By.xpath: //div[@class='requiredInput']//input[@id='j_id0:j_id3:j_id30:j_id37:j_id40']no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=//div[@class='requiredInput']//input[@id='j_id0:j_id3:j_id30:j_id37:j_id40']}
+Session ID: 13960e1a451accf797c5df0e357e5681
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir9104_24251}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:20 INFO  TC_base - inside tearDown method
+2016-06-08 11:13:20 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 13960e1a451accf797c5df0e357e5681
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir9104_24251}, rotatable=false, locationContextEnabled=true, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2016-06-08 11:13:20 ERROR TC_base - 
+2016-06-08 11:13:20 INFO  TC_base - extent report endTest() method completed
+2016-06-08 11:13:20 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 11:13:20 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:13:20 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 11:13:39 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:13:40 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:13:40 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:13:40 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:13:40 INFO  TC_base - profile created
+2016-06-08 11:13:49 INFO  TC_base - driver initialized
+2016-06-08 11:13:49 INFO  TC_base - window maximized
+2016-06-08 11:13:49 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:13:49 INFO  TC_base - ------test case: bsdQuoteRequest started-----
+2016-06-08 11:13:49 INFO  sfdc_Gen_Utils - -------inside login--------
+2016-06-08 11:14:04 INFO  sfdc_Util - https://bsdsqm.officedepot.com opened
+2016-06-08 11:14:04 INFO  sfdc_Gen_Utils - url opened
+2016-06-08 11:14:04 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:14:04 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:14:05 INFO  sfdc_Gen_Utils - username entered
+2016-06-08 11:14:05 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:14:05 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:14:05 INFO  sfdc_Gen_Utils - password entered
+2016-06-08 11:14:05 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:14:05 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:14:06 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:14:06 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:14:42 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:14:42 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 11:14:42 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-08 11:14:48 INFO  sfdc_Util - Timestamp creation passed
+2016-06-08 11:14:48 INFO  sfdc_Gen_Utils - ------inside fillData------
+2016-06-08 11:14:52 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:14:52 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:14:52 INFO  sfdc_Gen_Utils - item number passed
+2016-06-08 11:14:53 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:14:53 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:14:53 INFO  sfdc_Gen_Utils - quantity passed
+2016-06-08 11:14:53 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:14:53 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:14:53 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:14:53 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:15:10 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:15:15 INFO  sfdc_Gen_Utils - add to cart button is clicked
+2016-06-08 11:15:15 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:15:15 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:15:16 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:15:16 INFO  sfdc_Util - SHOPPING CART Element found on page
+2016-06-08 11:15:22 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:15:36 INFO  sfdc_Gen_Utils - shopping cart button is  clicked
+2016-06-08 11:15:36 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:15:36 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:15:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:15:37 INFO  sfdc_Util - Request Volume Pricing Element found on page
+2016-06-08 11:15:42 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:15:54 INFO  sfdc_Gen_Utils - request volume pricing is clicked
+2016-06-08 11:15:54 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:15:54 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:15:55 INFO  sfdc_Gen_Utils - quote name is passed
+2016-06-08 11:15:55 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:15:55 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:15:55 INFO  sfdc_Gen_Utils - quote msg is passed
+2016-06-08 11:15:55 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:15:55 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:15:55 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:15:55 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:16:09 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:16:13 INFO  sfdc_Gen_Utils - submit quote button is clicked
+2016-06-08 11:16:13 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:16:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:13 INFO  sfdc_Util - Logout Element found on page
+2016-06-08 11:16:17 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:16:18 INFO  sfdc_Gen_Utils - -------inside navigateToTestSalesForce--------
+2016-06-08 11:16:20 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 11:16:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:20 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:16:20 INFO  sfdc_Gen_Utils - username entered
+2016-06-08 11:16:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:20 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:16:20 INFO  sfdc_Gen_Utils - password entered
+2016-06-08 11:16:20 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:16:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:20 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:21 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:16:28 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:16:28 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 11:16:28 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:16:42 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:44 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:44 INFO  sfdc_Util - Opportunities Element found on page
+2016-06-08 11:16:48 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:16:49 INFO  sfdc_Util - New Tech quotes selection success
+2016-06-08 11:16:49 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:16:49 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:49 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:16:49 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:17:26 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:17:27 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 11:17:28 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-08 11:17:28 INFO  TC_base - inside tearDown method
+2016-06-08 11:17:28 INFO  TC_base - extent report endTest() method completed
+2016-06-08 11:17:28 INFO  TC_base - driver closed
+2016-06-08 11:17:28 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:17:28 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:17:28 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:17:28 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:17:28 INFO  TC_base - profile created
+2016-06-08 11:17:35 INFO  TC_base - driver initialized
+2016-06-08 11:17:35 INFO  TC_base - window maximized
+2016-06-08 11:17:35 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:17:35 INFO  TC_base - ------test case: createNewLead started-----
+2016-06-08 11:17:35 INFO  sfdc_Gen_Utils - -------inside loginTestSalesForce--------
+2016-06-08 11:17:38 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 11:17:38 INFO  sfdc_Gen_Utils - TestSalesForce url opened
+2016-06-08 11:17:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:17:38 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:17:38 INFO  sfdc_Gen_Utils - TestSalesForce username entered
+2016-06-08 11:17:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:17:38 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:17:38 INFO  sfdc_Gen_Utils - TestSalesForce password entered
+2016-06-08 11:17:39 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:17:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:17:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:17:39 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:17:56 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:17:56 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 11:17:56 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-08 11:17:57 INFO  sfdc_Gen_Utils - -------inside newLead--------
+2016-06-08 11:17:57 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:17:57 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:17:57 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:17:57 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 11:18:00 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:18:00 INFO  sfdc_Gen_Utils - clicked on leads tab
+2016-06-08 11:18:00 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:18:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:01 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:18:02 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:18:02 INFO  sfdc_Gen_Utils - clicked on new button
+2016-06-08 11:18:02 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:18:02 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:03 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:03 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:18:12 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:18:12 INFO  sfdc_Gen_Utils - clicked on continue button
+2016-06-08 11:18:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:13 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:18:14 INFO  sfdc_Gen_Utils - LastName Passed
+2016-06-08 11:18:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:14 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:18:14 INFO  sfdc_Gen_Utils - CompanyName Passed
+2016-06-08 11:18:14 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:18:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:14 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:18:30 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:18:30 INFO  sfdc_Gen_Utils - SaveButton clicked
+2016-06-08 11:18:30 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:18:30 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:30 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:30 INFO  sfdc_Util - Home Element found on page
+2016-06-08 11:18:36 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:18:36 INFO  sfdc_Gen_Utils - HomeTab clicked
+2016-06-08 11:18:36 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:18:36 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:37 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 11:18:38 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:18:38 INFO  sfdc_Gen_Utils - LeadsTab clicked
+2016-06-08 11:18:39 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 11:18:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:39 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 11:18:39 INFO  sfdc_Gen_Utils - validated if added lead  exists or not
+2016-06-08 11:18:39 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-08 11:18:39 INFO  sfdc_Util - Lead is found
+2016-06-08 11:18:39 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:18:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:39 INFO  sfdc_Util - lobo vadakkethal... Element found on page
+2016-06-08 11:18:40 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:18:40 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:18:40 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:40 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:40 INFO  sfdc_Util - Logout Element found on page
+2016-06-08 11:18:41 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:18:41 INFO  TC_base - inside tearDown method
+2016-06-08 11:18:41 INFO  TC_base - extent report endTest() method completed
+2016-06-08 11:18:41 INFO  TC_base - driver closed
+2016-06-08 11:18:41 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 11:18:41 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:18:41 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 11:18:41 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:18:41 INFO  TC_base - profile created
+2016-06-08 11:18:49 INFO  TC_base - driver initialized
+2016-06-08 11:18:49 INFO  TC_base - window maximized
+2016-06-08 11:18:49 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:18:49 INFO  TC_base - ------test case: Test_Sales_Force started-----
+2016-06-08 11:18:53 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 11:18:53 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:53 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:18:54 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:54 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:18:54 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:18:54 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:54 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:18:54 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:19:00 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:19:00 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:19:09 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:14 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 11:19:18 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:19:19 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 11:19:19 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:19 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 11:19:19 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:19:19 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:19 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:19 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 11:19:23 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:19:24 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:19:24 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:24 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:24 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:19:35 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:19:35 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:35 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:19:35 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:36 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:19:36 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:36 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:19:36 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:37 INFO  sfdc_Util - --None--
+Accounting
+Business Services
+Construction/Contractors
+Education/Schools
+Engineering/Architecture/Consulting
+Finance
+Government
+Insurance
+Legal
+Manufacturing/Printing
+Medical/Health Services
+Membership/Organizations
+Other
+Real Estate
+Retail/Restaurants
+Social Services
+Transportation/Communications/Utilities
+Wholesale Trade Element found on page
+2016-06-08 11:19:37 INFO  sfdc_Util - Industry selection success
+2016-06-08 11:19:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:37 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:19:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:38 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:19:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:38 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:19:38 INFO  sfdc_Util - zip selection fail
+2016-06-08 11:19:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:38 INFO  sfdc_Util - USA
+CAN
+MEX Element found on page
+2016-06-08 11:19:39 INFO  sfdc_Util - Country selection success
+2016-06-08 11:19:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:39 INFO  sfdc_Util - --None--
+Private
+Public Element found on page
+2016-06-08 11:19:40 INFO  sfdc_Util - Sector selection success
+2016-06-08 11:19:40 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:19:40 INFO  sfdc_Util - --None--
+Small < $40K
+Small $40K-$75K
+Medium $75K-$150K
+Standard $150K-$250K
+Key $250K-$500K
+Major $500K-$1M
+Enterprise $1M+ Element found on page
+2016-06-08 11:21:13 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: FirefoxDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:13 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:21:13 INFO  sfdc_Util - Small < $40K
+2016-06-08 11:21:14 INFO  sfdc_Util - Element not found on page - identified by By.xpath: .//select[@id='page:form:mainPgBlock:buttonrender:oppPgBlockSection:j_id69']Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:15 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: FirefoxDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:15 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:21:15 INFO  sfdc_Util - Buying Groups Small < $40K
+2016-06-08 11:21:16 INFO  sfdc_Util - Element not found on page - identified by By.xpath: .//span[@class='lookupInput']//inputError communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:17 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: FirefoxDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:17 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:21:17 INFO  sfdc_Util - Primary competitor selection fail
+2016-06-08 11:21:18 INFO  sfdc_Util - Element not found on page - identified by By.xpath: .//label[contains(text(),'Current Supplier')]/parent::th/following-sibling::td//selectError communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:19 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: FirefoxDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:19 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:21:19 INFO  sfdc_Util - Staples
+2016-06-08 11:21:20 INFO  sfdc_Util - Element not found on page - identified by By.xpath: .//select[@id='page:form:mainPgBlock:buttonrender:oppPgBlockSection:j_id64']Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:21 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: FirefoxDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:21 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:21:21 INFO  sfdc_Util - state selection fail
+2016-06-08 11:21:22 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: FirefoxDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:22 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:21:22 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:21:24 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: FirefoxDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:24 INFO  sfdc_Util - Unable to capture Screenshot in takeShot()null
+2016-06-08 11:21:24 INFO  sfdc_Util - Unable to click Element identified by By.xpath: .//td[@id='page:form:mainPgBlock:j_id30:bottom']//input[@value='Convert']
+2016-06-08 11:21:25 INFO  sfdc_Util - Element not found on page - identified by By.xpath: .//table[@class='detailList']//td[@class='labelCol' and contains(text(),'Record Type')]/following-sibling::td//divError communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:25 INFO  TC_base - inside tearDown method
+2016-06-08 11:21:26 INFO  sfdc_Util - Unable to capture Screenshot in  takeScreenshot()Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'D-113064970', ip: '10.209.17.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: FirefoxDriver
+Session ID: 9a045fb8-4dd1-4295-8e5c-a600a0380759
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+2016-06-08 11:21:26 ERROR TC_base - 
+2016-06-08 11:21:26 INFO  TC_base - extent report endTest() method completed
+2016-06-08 11:46:51 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:46:52 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:46:52 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:46:52 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:46:52 INFO  TC_base - profile created
+2016-06-08 11:47:00 INFO  TC_base - driver initialized
+2016-06-08 11:47:01 INFO  TC_base - window maximized
+2016-06-08 11:47:01 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:47:01 INFO  TC_base - ------test case: bsdQuoteRequest started-----
+2016-06-08 11:47:01 INFO  sfdc_Gen_Utils - -------inside login--------
+2016-06-08 11:47:37 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:47:38 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:47:38 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:47:38 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:47:38 INFO  TC_base - profile created
+2016-06-08 11:47:45 INFO  TC_base - driver initialized
+2016-06-08 11:48:06 INFO  TC_base - window maximized
+2016-06-08 11:48:06 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:48:06 INFO  TC_base - ------test case: bsdQuoteRequest started-----
+2016-06-08 11:48:06 INFO  sfdc_Gen_Utils - -------inside login--------
+2016-06-08 11:48:26 INFO  sfdc_Util - https://bsdsqm.officedepot.com opened
+2016-06-08 11:48:26 INFO  sfdc_Gen_Utils - url opened
+2016-06-08 11:48:27 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:48:27 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:48:27 INFO  sfdc_Gen_Utils - username entered
+2016-06-08 11:48:27 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:48:27 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:48:27 INFO  sfdc_Gen_Utils - password entered
+2016-06-08 11:48:28 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:48:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:48:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:48:28 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:49:05 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:49:05 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 11:49:05 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-08 11:49:12 INFO  sfdc_Util - Timestamp creation passed
+2016-06-08 11:49:12 INFO  sfdc_Gen_Utils - ------inside fillData------
+2016-06-08 11:49:15 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:49:15 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:49:15 INFO  sfdc_Gen_Utils - item number passed
+2016-06-08 11:49:15 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:49:16 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:49:16 INFO  sfdc_Gen_Utils - quantity passed
+2016-06-08 11:49:16 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:49:16 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:49:16 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:49:16 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:49:34 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:49:39 INFO  sfdc_Gen_Utils - add to cart button is clicked
+2016-06-08 11:49:39 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:49:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:49:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:49:40 INFO  sfdc_Util - SHOPPING CART Element found on page
+2016-06-08 11:49:46 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:49:59 INFO  sfdc_Gen_Utils - shopping cart button is  clicked
+2016-06-08 11:49:59 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:50:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:01 INFO  sfdc_Util - Request Volume Pricing Element found on page
+2016-06-08 11:50:07 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:50:17 INFO  sfdc_Gen_Utils - request volume pricing is clicked
+2016-06-08 11:50:17 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:17 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:50:17 INFO  sfdc_Gen_Utils - quote name is passed
+2016-06-08 11:50:17 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:17 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:50:17 INFO  sfdc_Gen_Utils - quote msg is passed
+2016-06-08 11:50:17 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:50:17 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:18 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:18 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:50:34 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:50:38 INFO  sfdc_Gen_Utils - submit quote button is clicked
+2016-06-08 11:50:38 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:50:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:38 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:38 INFO  sfdc_Util - Logout Element found on page
+2016-06-08 11:50:42 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:50:43 INFO  sfdc_Gen_Utils - -------inside navigateToTestSalesForce--------
+2016-06-08 11:50:46 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 11:50:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:46 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:50:46 INFO  sfdc_Gen_Utils - username entered
+2016-06-08 11:50:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:46 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:50:46 INFO  sfdc_Gen_Utils - password entered
+2016-06-08 11:50:46 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:50:47 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:47 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:50:47 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:50:54 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:50:54 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 11:50:54 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:51:00 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:51:08 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:51:08 INFO  sfdc_Util - Opportunities Element found on page
+2016-06-08 11:51:13 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:51:14 INFO  sfdc_Util - New Tech quotes selection success
+2016-06-08 11:51:14 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:51:15 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:51:15 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:51:15 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:51:47 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:51:48 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 11:51:48 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-08 11:51:48 INFO  sfdc_Util - Validation success-BSD QUOTE REQUEST
+2016-06-08 11:51:48 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:51:48 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:51:48 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:51:48 INFO  sfdc_Util - lobo vadakkethal... Element found on page
+2016-06-08 11:51:49 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:51:49 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:51:49 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:51:49 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:51:49 INFO  sfdc_Util - Logout Element found on page
+2016-06-08 11:51:50 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:51:50 INFO  TC_base - inside tearDown method
+2016-06-08 11:51:50 INFO  TC_base - extent report endTest() method completed
+2016-06-08 11:51:50 INFO  TC_base - driver closed
+2016-06-08 11:51:50 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 11:51:50 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:51:50 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 11:51:50 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:51:50 INFO  TC_base - profile created
+2016-06-08 11:52:01 INFO  TC_base - driver initialized
+2016-06-08 11:52:01 INFO  TC_base - window maximized
+2016-06-08 11:52:01 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:52:01 INFO  TC_base - ------test case: createNewLead started-----
+2016-06-08 11:52:01 INFO  sfdc_Gen_Utils - -------inside loginTestSalesForce--------
+2016-06-08 11:52:09 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 11:52:09 INFO  sfdc_Gen_Utils - TestSalesForce url opened
+2016-06-08 11:52:09 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:09 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:52:09 INFO  sfdc_Gen_Utils - TestSalesForce username entered
+2016-06-08 11:52:09 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:09 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:52:09 INFO  sfdc_Gen_Utils - TestSalesForce password entered
+2016-06-08 11:52:10 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:52:10 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:10 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:10 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:52:15 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:52:15 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 11:52:15 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-08 11:52:35 INFO  sfdc_Gen_Utils - -------inside newLead--------
+2016-06-08 11:52:39 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:52:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:39 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:39 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 11:52:44 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:52:44 INFO  sfdc_Gen_Utils - clicked on leads tab
+2016-06-08 11:52:44 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:52:44 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:44 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:44 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:52:46 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:52:46 INFO  sfdc_Gen_Utils - clicked on new button
+2016-06-08 11:52:46 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:52:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:46 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:52:57 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:52:57 INFO  sfdc_Gen_Utils - clicked on continue button
+2016-06-08 11:52:58 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:58 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:52:58 INFO  sfdc_Gen_Utils - LastName Passed
+2016-06-08 11:52:58 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:59 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:52:59 INFO  sfdc_Gen_Utils - CompanyName Passed
+2016-06-08 11:52:59 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:52:59 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:59 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:52:59 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:53:06 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:53:06 INFO  sfdc_Gen_Utils - SaveButton clicked
+2016-06-08 11:53:07 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:53:07 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:07 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:07 INFO  sfdc_Util - Home Element found on page
+2016-06-08 11:53:11 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:53:11 INFO  sfdc_Gen_Utils - HomeTab clicked
+2016-06-08 11:53:11 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:53:11 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:11 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:11 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 11:53:13 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:53:13 INFO  sfdc_Gen_Utils - LeadsTab clicked
+2016-06-08 11:53:13 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 11:53:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:13 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 11:53:13 INFO  sfdc_Gen_Utils - validated if added lead  exists or not
+2016-06-08 11:53:13 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-08 11:53:13 INFO  sfdc_Util - Lead is found
+2016-06-08 11:53:13 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:53:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:14 INFO  sfdc_Util - lobo vadakkethal... Element found on page
+2016-06-08 11:53:14 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:53:14 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:53:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:14 INFO  sfdc_Util - Logout Element found on page
+2016-06-08 11:53:15 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:53:15 INFO  TC_base - inside tearDown method
+2016-06-08 11:53:15 INFO  TC_base - extent report endTest() method completed
+2016-06-08 11:53:15 INFO  TC_base - driver closed
+2016-06-08 11:53:15 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 11:53:15 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 11:53:15 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 11:53:15 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 11:53:15 INFO  TC_base - profile created
+2016-06-08 11:53:21 INFO  TC_base - driver initialized
+2016-06-08 11:53:21 INFO  TC_base - window maximized
+2016-06-08 11:53:21 INFO  TC_base - exiting initBrowser() method
+2016-06-08 11:53:21 INFO  TC_base - ------test case: Test_Sales_Force started-----
+2016-06-08 11:53:28 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 11:53:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:28 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:53:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:28 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:53:28 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:53:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:28 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:29 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:53:34 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:53:34 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:53:44 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:50 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:50 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 11:53:56 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:53:56 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 11:53:56 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:56 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 11:53:56 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:53:56 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:57 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:53:57 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 11:54:01 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:54:01 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:54:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:01 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:54:12 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:54:12 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:12 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:54:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:13 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:54:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:13 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:54:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:14 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:54:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:14 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:54:17 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 11:54:17 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:18 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:18 INFO  sfdc_Util -  Element found on page
+2016-06-08 11:54:40 INFO  sfdc_Util -  Button clicked
+2016-06-08 11:54:40 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 11:54:40 INFO  sfdc_Util - Prospect [Change] Element found on page
+2016-06-08 11:54:40 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-08 11:54:41 INFO  sfdc_Util - Record verified
+2016-06-08 11:54:41 INFO  TC_base - inside tearDown method
+2016-06-08 11:54:42 INFO  TC_base - extent report endTest() method completed
+2016-06-08 11:54:42 INFO  TC_base - driver closed
+2016-06-08 11:54:42 INFO  TC_base - inside flushReport() method
+2016-06-08 11:54:42 INFO  TC_base - report flushed
+2016-06-08 12:16:13 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:16:14 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:16:14 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:16:14 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 12:16:17 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:16:17 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:16:17 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:16:17 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 12:16:17 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:16:17 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 12:17:38 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:17:38 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:17:38 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:17:38 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 12:17:40 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:17:40 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:17:40 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:17:40 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 12:17:40 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:17:40 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 12:18:43 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:18:43 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:18:43 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:18:43 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 12:18:45 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:18:45 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:18:45 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:18:45 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 12:18:45 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:18:45 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 12:52:40 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:52:40 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:52:41 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:52:41 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:52:41 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:52:41 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:52:41 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 12:52:41 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:52:46 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 12:54:25 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:54:26 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:54:26 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:54:26 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 12:54:27 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 12:54:27 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:54:27 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 12:54:27 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 12:54:27 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 12:54:27 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 17:42:12 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 17:42:14 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:42:14 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 17:42:14 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 17:42:21 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 17:42:21 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:42:21 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 17:42:21 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 17:42:21 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:42:21 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 17:53:24 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 17:53:25 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:53:25 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 17:53:25 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 17:53:26 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 17:53:26 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:53:26 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 17:53:26 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 17:53:26 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:53:26 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 17:57:55 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 17:57:56 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:57:56 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 17:57:56 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 17:57:56 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 17:57:56 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:57:56 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 17:57:56 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 17:57:56 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 17:57:56 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 18:01:16 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 18:01:17 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 18:01:17 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 18:01:17 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 18:01:17 INFO  TC_base - profile created
+2016-06-08 18:01:36 INFO  TC_base - driver initialized
+2016-06-08 18:01:45 INFO  TC_base - window maximized
+2016-06-08 18:01:45 INFO  TC_base - exiting initBrowser() method
+2016-06-08 18:01:45 INFO  TC_base - ------test case: bsdQuoteRequest started-----
+2016-06-08 18:01:45 INFO  sfdc_Gen_Utils - -------inside login--------
+2016-06-08 18:02:00 INFO  sfdc_Util - https://bsdsqm.officedepot.com opened
+2016-06-08 18:02:00 INFO  sfdc_Gen_Utils - url opened
+2016-06-08 18:02:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:02:01 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:02:01 INFO  sfdc_Gen_Utils - username entered
+2016-06-08 18:02:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:02:01 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:02:01 INFO  sfdc_Gen_Utils - password entered
+2016-06-08 18:02:02 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:02:02 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:02:02 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:02:02 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:02:36 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:02:36 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 18:02:36 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-08 18:02:52 INFO  sfdc_Util - Timestamp creation passed
+2016-06-08 18:02:52 INFO  sfdc_Gen_Utils - ------inside fillData------
+2016-06-08 18:02:55 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:02:55 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:02:55 INFO  sfdc_Gen_Utils - item number passed
+2016-06-08 18:02:57 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:02:58 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:02:58 INFO  sfdc_Gen_Utils - quantity passed
+2016-06-08 18:02:58 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:02:58 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:02:58 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:02:58 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:03:20 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:03:23 INFO  sfdc_Gen_Utils - add to cart button is clicked
+2016-06-08 18:03:23 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:03:23 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:03:23 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:03:23 INFO  sfdc_Util - SHOPPING CART Element found on page
+2016-06-08 18:03:28 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:03:45 INFO  sfdc_Gen_Utils - shopping cart button is  clicked
+2016-06-08 18:03:45 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:03:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:03:46 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:03:46 INFO  sfdc_Util - Request Volume Pricing Element found on page
+2016-06-08 18:03:52 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:04:03 INFO  sfdc_Gen_Utils - request volume pricing is clicked
+2016-06-08 18:04:03 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:03 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:04:03 INFO  sfdc_Gen_Utils - quote name is passed
+2016-06-08 18:04:03 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:03 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:04:04 INFO  sfdc_Gen_Utils - quote msg is passed
+2016-06-08 18:04:04 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:04:04 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:04 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:04 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:04:25 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:04:28 INFO  sfdc_Gen_Utils - submit quote button is clicked
+2016-06-08 18:04:28 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:04:29 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:29 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:29 INFO  sfdc_Util - Logout Element found on page
+2016-06-08 18:04:32 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:04:33 INFO  sfdc_Gen_Utils - -------inside navigateToTestSalesForce--------
+2016-06-08 18:04:37 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 18:04:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:37 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:04:37 INFO  sfdc_Gen_Utils - username entered
+2016-06-08 18:04:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:37 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:04:37 INFO  sfdc_Gen_Utils - password entered
+2016-06-08 18:04:37 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:04:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:37 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:04:43 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:04:43 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 18:04:43 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:04:49 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:57 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:04:57 INFO  sfdc_Util - Opportunities Element found on page
+2016-06-08 18:05:03 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:05:04 INFO  sfdc_Util - New Tech quotes selection success
+2016-06-08 18:05:04 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:05:04 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:05:04 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:05:04 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:05:11 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:05:12 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 18:05:12 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-08 18:05:13 INFO  sfdc_Util - Validation success-BSD QUOTE REQUEST
+2016-06-08 18:05:13 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:05:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:05:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:05:13 INFO  sfdc_Util - lobo vadakkethal... Element found on page
+2016-06-08 18:05:13 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:05:13 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:05:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:05:13 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:05:13 INFO  sfdc_Util - Logout Element found on page
+2016-06-08 18:05:14 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:05:15 INFO  TC_base - inside tearDown method
+2016-06-08 18:05:25 INFO  TC_base - extent report endTest() method completed
+2016-06-08 18:05:26 INFO  TC_base - driver closed
+2016-06-08 18:05:26 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method started------
+2016-06-08 18:05:26 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 18:05:26 INFO  Data_Provider_sfdc - -----dataProviderbsdQuoteRequest() method finished------
+2016-06-08 18:05:26 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 18:05:26 INFO  TC_base - profile created
+2016-06-08 18:05:58 INFO  TC_base - driver initialized
+2016-06-08 18:05:58 INFO  TC_base - window maximized
+2016-06-08 18:05:58 INFO  TC_base - exiting initBrowser() method
+2016-06-08 18:05:58 INFO  TC_base - ------test case: createNewLead started-----
+2016-06-08 18:05:58 INFO  sfdc_Gen_Utils - -------inside loginTestSalesForce--------
+2016-06-08 18:06:01 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 18:06:01 INFO  sfdc_Gen_Utils - TestSalesForce url opened
+2016-06-08 18:06:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:01 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:06:01 INFO  sfdc_Gen_Utils - TestSalesForce username entered
+2016-06-08 18:06:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:01 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:06:01 INFO  sfdc_Gen_Utils - TestSalesForce password entered
+2016-06-08 18:06:01 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:06:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:01 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:02 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:06:07 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:06:07 INFO  sfdc_Gen_Utils - login button clicked
+2016-06-08 18:06:07 INFO  sfdc_Gen_Utils - --------login finished----------
+2016-06-08 18:06:07 INFO  sfdc_Gen_Utils - -------inside newLead--------
+2016-06-08 18:06:07 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:06:17 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:21 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:21 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 18:06:24 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:06:24 INFO  sfdc_Gen_Utils - clicked on leads tab
+2016-06-08 18:06:25 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:06:25 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:25 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:25 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:06:26 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:06:26 INFO  sfdc_Gen_Utils - clicked on new button
+2016-06-08 18:06:27 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:06:27 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:27 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:27 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:06:46 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:06:46 INFO  sfdc_Gen_Utils - clicked on continue button
+2016-06-08 18:06:47 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:47 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:06:47 INFO  sfdc_Gen_Utils - LastName Passed
+2016-06-08 18:06:48 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:48 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:06:48 INFO  sfdc_Gen_Utils - CompanyName Passed
+2016-06-08 18:06:48 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:06:48 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:48 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:48 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:06:56 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:06:56 INFO  sfdc_Gen_Utils - SaveButton clicked
+2016-06-08 18:06:56 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:06:56 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:57 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:06:57 INFO  sfdc_Util - Home Element found on page
+2016-06-08 18:06:59 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:06:59 INFO  sfdc_Gen_Utils - HomeTab clicked
+2016-06-08 18:07:00 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:07:00 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:00 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:00 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 18:07:02 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:07:02 INFO  sfdc_Gen_Utils - LeadsTab clicked
+2016-06-08 18:07:02 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 18:07:02 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:02 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 18:07:02 INFO  sfdc_Gen_Utils - validated if added lead  exists or not
+2016-06-08 18:07:02 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-08 18:07:03 INFO  sfdc_Util - Lead is found
+2016-06-08 18:07:03 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:07:03 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:03 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:03 INFO  sfdc_Util - lobo vadakkethal... Element found on page
+2016-06-08 18:07:03 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:07:03 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:07:03 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:03 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:03 INFO  sfdc_Util - Logout Element found on page
+2016-06-08 18:07:04 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:07:04 INFO  TC_base - inside tearDown method
+2016-06-08 18:07:04 INFO  TC_base - extent report endTest() method completed
+2016-06-08 18:07:04 INFO  TC_base - driver closed
+2016-06-08 18:07:04 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method started------
+2016-06-08 18:07:04 INFO  Data_Provider_sfdc - Object[][] array filled
+2016-06-08 18:07:04 INFO  Data_Provider_sfdc - -----dataProvidercreatesalesforce() method finished------
+2016-06-08 18:07:04 INFO  TC_base -   -------initBrowser() method started-----
+2016-06-08 18:07:04 INFO  TC_base - profile created
+2016-06-08 18:07:15 INFO  TC_base - driver initialized
+2016-06-08 18:07:15 INFO  TC_base - window maximized
+2016-06-08 18:07:15 INFO  TC_base - exiting initBrowser() method
+2016-06-08 18:07:15 INFO  TC_base - ------test case: Test_Sales_Force started-----
+2016-06-08 18:07:17 INFO  sfdc_Util - https://test.salesforce.com opened
+2016-06-08 18:07:18 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:18 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:18 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:18 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:18 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:07:18 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:18 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:18 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:24 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:07:24 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:07:30 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:34 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:34 INFO  sfdc_Util - Leads Element found on page
+2016-06-08 18:07:35 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:07:37 INFO  WaitUtility - -----Explicitly Wait For Elements Presence-----
+2016-06-08 18:07:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:37 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 18:07:37 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:07:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:37 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:37 INFO  sfdc_Util - Johnson Element found on page
+2016-06-08 18:07:40 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:07:41 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:07:41 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:41 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:41 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:49 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:07:50 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:50 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:51 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:51 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:51 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:51 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:52 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:52 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:52 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:52 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:07:55 INFO  WaitUtility - -----Explicitly Wait To Click-----
+2016-06-08 18:07:55 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:56 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:07:56 INFO  sfdc_Util -  Element found on page
+2016-06-08 18:08:14 INFO  sfdc_Util -  Button clicked
+2016-06-08 18:08:14 INFO  WaitUtility - -----Fluently Waiting-----
+2016-06-08 18:08:14 INFO  sfdc_Util - Prospect [Change] Element found on page
+2016-06-08 18:08:14 INFO  sfdc_Util - -----assertCheck() started-----
+2016-06-08 18:08:15 INFO  sfdc_Util - Record verified
+2016-06-08 18:08:15 INFO  TC_base - inside tearDown method
+2016-06-08 18:08:16 INFO  TC_base - extent report endTest() method completed
+2016-06-08 18:08:16 INFO  TC_base - driver closed
+2016-06-08 18:08:17 INFO  TC_base - inside flushReport() method
+2016-06-08 18:08:18 INFO  TC_base - report flushed

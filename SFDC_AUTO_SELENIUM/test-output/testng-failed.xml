@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.wipro.sfdc.test.TC_BSDQuoteRequest">
+        <methods>
+          <include name="BSD_Quote_Request"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.wipro.sfdc.test.TC_BSDQuoteRequest -->
+      <class name="com.wipro.sfdc.test.TC_CreateNewLead">
+        <methods>
+          <include name="Create_New_Lead"/>
+        </methods>
+      </class> <!-- com.wipro.sfdc.test.TC_CreateNewLead -->
+      <class name="com.wipro.sfdc.test.TC_SalesForce">
+        <methods>
+          <include name="Test_Sales_Force"/>
+        </methods>
+      </class> <!-- com.wipro.sfdc.test.TC_SalesForce -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
